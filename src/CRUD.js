@@ -28,27 +28,6 @@ const CRUD = () => {
     const [editAge, setEditAge] = useState("");
     const [editIsActive, setEditIsActive] = useState(0);
 
-
-    const empdata = [
-        {
-            id: 1,
-            name: 'Ishu',
-            age: 21,
-            isActive: 1
-        },
-        {
-            id: 2,
-            name: 'Ishika',
-            age: 22,
-            isActive: 0
-        },
-        {
-            id: 3,
-            name: 'Guddu',
-            age: 23,
-            isActive: 1
-        }
-    ]
     const [data, setData] = useState([]);
 
     useEffect(() => {
